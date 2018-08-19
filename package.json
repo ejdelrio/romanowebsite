@@ -6,8 +6,7 @@
   "engines": {
     "node": "v6.11.1"
   },
-  "main": "server.js",
-    "scripts": {
+  "scripts": {
     "build": "webpack",
     "watch": "webpack-dev-server --inline --hot",
     "heroku-postbuild": "webpack -p --progress",
