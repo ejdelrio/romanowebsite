@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 
 import "./_about.scss";
 
@@ -11,9 +11,9 @@ class About extends Component
 
   render()
   {
-    return
-    (
+    return (
       <section id={ "about" }>
+        <h1>About Page Here</h1>
       </section>
     )
   }

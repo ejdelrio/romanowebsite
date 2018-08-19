@@ -15,7 +15,7 @@ class Banner extends Component
   render()
   {
     return(
-      <section>
+      <div id={ "banner" }>
         <h1>Tucker Landscaping</h1>
         <nav>
           <ul>
@@ -26,7 +26,7 @@ class Banner extends Component
             <li>Contact</li>
           </ul>
         </nav>
-      </section>
+      </div>
     )
 
   }

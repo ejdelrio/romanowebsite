@@ -1,4 +1,4 @@
-import { Component } from 'React';
+import React, { Component } from 'React';
 
 import "./_contact.scss";
 
@@ -11,9 +11,9 @@ class Contact extends Component
 
   render()
   {
-    return
-    (
+    return (
       <section id={ "contact" }>
+        <h1>Contact Page Here</h1>
       </section>
     )
   }

@@ -11,9 +11,9 @@ class Home extends Component
 
   render()
   {
-    return
-    (
-      <section id={"Home"}>
+    return (
+      <section id={ "home" }>
+        <h1>Home Page Here</h1>
       </section>
     )
   }

@@ -11,9 +11,9 @@ class Services extends Component
 
   render()
   {
-    return
-    (
+    return (
       <section id={ "services" }>
+        <h1>Services Page Here</h1>
       </section>
     )
   }
