@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './_app.scss';
 import Banner from '../Banner';
@@ -8,7 +8,7 @@ import Services from '../Services';
 import Gallery from '../Gallery';
 import Contact from '../Contact';
 
-class App extends Component
+class App extends React.Component
 {
   render()
   {
