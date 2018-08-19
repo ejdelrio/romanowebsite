@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
+import Banner from '../Banner';
+import './_app.scss';
+
 class App extends React.Component
 {
   render()
   {
     return(
       <section>
-        <h1>Testing</h1>
+        <Banner />
       </section>
     )
   }
