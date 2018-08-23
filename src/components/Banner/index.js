@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './_banner.scss';
 
 class Banner extends Component
@@ -7,23 +8,22 @@ class Banner extends Component
   {
     super(props);
 
-    this.state = 
-    {
-    }
+
   }
 
   render()
   {
+    console.log(Link);
     return(
       <div id={ "banner" }>
         <h1>Tucker Landscaping</h1>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Gallery</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><Link to='/home'>Home</ Link></ li>
+            <li><Link to='/about'>About</ Link></ li>
+            <li><Link to='/services'>Services</ Link></ li>
+            <li><Link to='/gallery'>Gallery</ Link></ li>
+            <li><Link to='/contact'>Contact</ Link></ li>
           </ul>
         </nav>
       </div>

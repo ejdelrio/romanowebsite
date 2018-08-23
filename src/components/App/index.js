@@ -1,27 +1,20 @@
 import React, { Component } from 'react';
 
-import './_app.scss';
 import Banner from '../Banner';
-import Home from '../Home';
-import About from '../About';
-import Services from '../Services';
-import Gallery from '../Gallery';
-import Contact from '../Contact';
+import './_app.scss';
 
 class App extends Component
 {
+  constructor(props)
+  {
+    super(props);
+  }
+
   render()
   {
-    return(
-      <section>
-        <Banner />
-        <Home />
-        <About />
-        <Services />
-        <Gallery />
-        <Contact />
-      </section>
-    );
+    return (
+      <Banner />
+    )
   }
 }
 
